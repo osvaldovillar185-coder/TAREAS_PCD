@@ -43,3 +43,21 @@ def procesar_linea(linea):
     return ciudad, celsius, clasificacion
 
 
+def main():
+    primera = True
+    print("ciudad,temperatura_celsius,clasificacion")
+    for linea in sys.stdin:
+        linea = linea.strip()
+        if primera:
+            primera = False
+            continue
+        if not linea:
+            continue
+        resultado = procesar_linea(linea)
+        if resultado:
+            ciudad, celsius, clasificacion = resultado
+            print(f"{ciudad},{celsius:.1f},{clasificacion}")
+
+
+if __name__ == "__main__":
+    main()
