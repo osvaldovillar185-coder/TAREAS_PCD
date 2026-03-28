@@ -18,4 +18,22 @@ def main():
         partes = linea.split(',')
 
         # Validar formato
- 
+        if len(partes) != 4:
+            continue
+
+        producto = partes[1]
+
+        try:
+            cantidad = int(partes[2])
+            precio = float(partes[3])
+        except ValueError:
+            continue
+
+        if producto not in productos:
+            productos[producto] = {
+                "unidades": 0,
+                "ingreso": 0.0
+            }
+
+        productos[producto]["unidades"] += cantidad
+        productos[producto]["ingreso"] += cantidad * precio
