@@ -1,0 +1,45 @@
+# ========================
+# Entornos Virtuales
+# ========================
+venv/
+env/
+.venv/
+.env
+env.bak/
+venv.bak/
+
+# ========================
+# Caché y compilados de Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ========================
+# Archivos de datos y reportes del proyecto
+# ========================
+# Ignora los datasets CSV para no saturar el repositorio
+datos_entrada/*.csv
+
+# Ignora todos los reportes generados
+resultados/*
+
+# Excepciones para mantener las carpetas en el repositorio (requiere crear un archivo vacío llamado .gitkeep en cada una)
+!datos_entrada/.gitkeep
+!resultados/.gitkeep
+
+# ========================
+# Configuraciones de Editores / IDEs
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# Archivos del Sistema Operativo
+# ========================
+.DS_Store
+Thumbs.db
+*~
