@@ -15,7 +15,7 @@ def main():
         if not linea:
             continue
 
-        partes = linea.split(',')
+        partes = linea.split(',')   
 
         # Validar formato
         if len(partes) != 4:
@@ -26,6 +26,12 @@ def main():
         try:
             cantidad = int(partes[2])
             precio = float(partes[3])
+            
+            # --- LIMPIEZA DE DATOS ---
+            # Descartar si el precio es infinito, o si hay valores ilógicos (negativos o ceros)
+            if precio == float('inf') or precio == float('-inf') or precio <= 0 or cantidad <= 0:
+                continue
+
         except ValueError:
             continue
 
@@ -44,11 +50,10 @@ def main():
         ingreso = productos[prod]["ingreso"]
         productos[prod]["promedio"] = ingreso / unidades if unidades > 0 else 0
 
-    # Ordenar por ingreso descendente
+    # Ordenar por ingreso descendente y en caso de empate, alfabéticamente
     productos_ordenados = sorted(
         productos.items(),
-        key=lambda x: x[1]["ingreso"],
-        reverse=True
+        key=lambda x: (-x[1]["ingreso"], x[0])
     )
 
     # Salida
