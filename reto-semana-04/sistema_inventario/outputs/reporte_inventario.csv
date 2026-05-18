@@ -133,7 +133,6 @@ SKU05913,Pantalla Portatil HP,Electronica,13,50,37,53281.80
 SKU06304,Audifonos Bluetooth Kingston,Audio,13,50,37,17829.11
 SKU06364,Stylus BenQ,Accesorios,13,50,37,23514.79
 SKU06782,HDD Gigabyte,Almacenamiento,13,50,37,10252.32
-SKU00670,MacBook Seagate,Electronica,14,50,36,inf
 SKU00780,Monitor Gaming TP-Link,Electronica,14,50,36,100001.58
 SKU02588,MacBook Seagate,Electronica,14,50,36,312724.44
 SKU02718,Audifonos Gaming Apple,Audio,14,50,36,23591.40
@@ -1449,7 +1448,6 @@ SKU03574,NAS Lenovo,Almacenamiento,0,10,10,0.00
 SKU03751,SSD HyperX,Almacenamiento,5,15,10,8019.45
 SKU03775,Teclado Gaming Canon,Accesorios,0,10,10,0.00
 SKU03882,MacBook Sony,Electronica,15,25,10,832421.10
-SKU03972,Bocina Bluetooth HyperX,Audio,0,10,10,nan
 SKU04162,Teclado Gaming Kingston,Accesorios,10,20,10,14262.70
 SKU04175,Audifonos Gaming BenQ,Audio,10,20,10,14666.20
 SKU04193,Barra Sonido Xiaomi,Audio,15,25,10,60903.45
@@ -1490,7 +1488,6 @@ SKU07409,USB Drive MSI,Almacenamiento,0,10,10,0.00
 SKU07569,Procesador TP-Link,Componentes,0,10,10,0.00
 SKU07637,Stylus Razer,Accesorios,20,30,10,16669.20
 SKU07718,Teclado Mecanico TP-Link,Accesorios,5,15,10,7095.45
-SKU07811,Pantalla Portatil TP-Link,Electronica,0,10,10,nan
 SKU07834,Microfono Kingston,Audio,0,10,10,0.00
 SKU07836,Microfono USB Anker,Audio,10,20,10,16457.80
 SKU07884,Barra Sonido Seagate,Audio,15,25,10,45120.15
@@ -1740,7 +1737,6 @@ SKU04134,HDD Corsair,Almacenamiento,2,10,8,4469.20
 SKU04141,HDD Apple,Almacenamiento,22,30,8,52533.36
 SKU04150,HDD Externo Dell,Almacenamiento,2,10,8,8412.88
 SKU04156,HDD Externo Dell,Almacenamiento,7,15,8,14453.60
-SKU04160,Monitor Curvo Acer,Electronica,17,25,8,inf
 SKU04177,RAM Logitech,Componentes,2,10,8,3920.52
 SKU04217,Control Gaming,Gaming,22,30,8,13405.70
 SKU04246,Pantalla Portatil Epson,Electronica,7,15,8,16023.14
@@ -1943,7 +1939,6 @@ SKU06404,USB Drive,Almacenamiento,13,20,7,2696.85
 SKU06412,Ultrabook Canon,Electronica,23,30,7,570670.02
 SKU06505,Repetidor WiFi,Redes,3,10,7,2346.69
 SKU06556,RAM Xiaomi,Componentes,13,20,7,26030.03
-SKU06634,Mouse Epson,Accesorios,13,20,7,inf
 SKU06650,Monitor Gaming Epson,Electronica,13,20,7,79170.78
 SKU06668,Touchpad Logitech,Accesorios,23,30,7,19026.75
 SKU06729,HDD LG,Almacenamiento,18,25,7,20214.54

@@ -1,3 +1,6 @@
+import math
+
+
 def validar_sku(sku):
     """
     Valida que el SKU no este vacio.
@@ -25,6 +28,8 @@ def validar_precio(precio):
     """
     try:
         precio_num = float(precio)
+        if math.isinf(precio_num) or math.isnan(precio_num):
+            return False
         return precio_num >= 0
     except (ValueError, TypeError):
         return False
